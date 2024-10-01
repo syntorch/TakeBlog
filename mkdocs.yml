@@ -89,6 +89,9 @@ extra:
     - name: GitHub
       icon: fontawesome/brands/github
       link: https://github.com/syntorch
+  analytics:
+    provider: google
+    property: G-7P3384FXEB
 
 plugins:
   # 设置博客插件
