@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3pages on take&#39;s blog</title>
+    <link>//localhost:1313/3pages/</link>
+    <description>Recent content in 3pages on take&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language><atom:link href="//localhost:1313/3pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客链接</title>
+      <link>//localhost:1313/3pages/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/3pages/links/</guid>
+      
+      <description>&lt;p&gt;博客的内容能够传递精彩的人生、有趣的知识、广阔的世界。&lt;/p&gt;
+&lt;p&gt;可惜博客也像是一座一座孤岛，很难被发现。&lt;/p&gt;
+&lt;p&gt;因此这里会记录一些有趣的，偶然发现的博客。&lt;/p&gt;
+&lt;h2 id=&#34;技术老哥&#34;&gt;技术老哥&lt;/h2&gt;
+&lt;p&gt;苏洋: &lt;a href=&#34;https://soulteary.com/&#34;&gt;https://soulteary.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;diygod: &lt;a href=&#34;https://diygod.cc/&#34;&gt;https://diygod.cc/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;google的老哥: &lt;a href=&#34;http://idle.systems/&#34;&gt;http://idle.systems/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;pesudoyu: &lt;a href=&#34;https://www.pseudoyu.com/&#34;&gt;https://www.pseudoyu.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+&lt;p&gt;新闻RSS订阅：&lt;a href=&#34;https://feedx.net/&#34;&gt;https://feedx.net/&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>关于我</title>
+      <link>//localhost:1313/3pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/3pages/about/</guid>
+      
+      <description>&lt;p&gt;Hi，我是Take(/ta&amp;rsquo;keı/)。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/syntorch&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>好物推荐</title>
+      <link>//localhost:1313/3pages/goods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/3pages/goods/</guid>
+      
+      <description>&lt;p&gt;&lt;a href=&#34;//localhost:1313/3pages/links/&#34;&gt;博客链接&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

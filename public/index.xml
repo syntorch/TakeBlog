@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>主页 on take&#39;s blog</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in 主页 on take&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 08 Sep 2024 21:59:42 +0800</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>群晖DS720&#43;入手体验</title>
+      <link>//localhost:1313/1tech/20240216%E7%BE%A4%E6%99%96ds720&#43;%E5%85%A5%E6%89%8B%E4%BD%93%E9%AA%8C/</link>
+      <pubDate>Fri, 16 Feb 2024 21:08:00 +0800</pubDate>
+      
+      <guid>//localhost:1313/1tech/20240216%E7%BE%A4%E6%99%96ds720&#43;%E5%85%A5%E6%89%8B%E4%BD%93%E9%AA%8C/</guid>
+      
+      <description>&lt;p&gt;2024年1月我从闲鱼入手了群晖的&lt;a href=&#34;https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/20-year/DS720+/enu/Synology_DS720_Plus_Data_Sheet_enu.pdf?_gl=1*90tnku*_ga*MTI0MTE2ODY0LjE2MTIwNTIwNDM.*_ga_9Q8XT3X20D*MTYxMjQyMjIyNy4xNC4xLjE2MTI0MjIyNzMuMTQ.&amp;_ga=2.23244665.2147249386.1612422227-124116864.1612052043&#34;&gt;DS720+&lt;/a&gt;，这是一台&lt;a href=&#34;https://en.wikipedia.org/wiki/Network-attached_storage&#34;&gt;NAS&lt;/a&gt;设备。群晖以买软件送硬件著称，它开盒即用，十分方便。目前我仅将它用于个人文档存储以及同步盘使用，然而它的能力远不止于此。本文记录了对DS720+感想。&lt;/p&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;在购入NAS之前，我一直有一个想要整合过去所有资料的想法。因为我存放资料的方式都比较随意，在不同的云盘、不同移动硬盘、不同设备的硬盘，总之散落在各个地方。由于这个契机加上我本就想要一个NAS设备，我便入手了这台NAS。&lt;/p&gt;
+&lt;h2 id=&#34;存储选择&#34;&gt;存储选择&lt;/h2&gt;
+&lt;p&gt;目前NAS市场也变得比较卷。老牌的有群晖威联通，国产的绿联极空间，性价比和客制化极强的DIY等等，作为用户可选项很多。&lt;/p&gt;
+&lt;p&gt;我的想法是不希望太过折腾，作为个人使用也不需要过强的硬件性能，但也希望软件功能比较多。综上，我最终选择了群晖平台作为存储方案。&lt;/p&gt;
+&lt;h2 id=&#34;ds720购入&#34;&gt;DS720+购入&lt;/h2&gt;
+&lt;p&gt;群晖的DS720+是在2024年1月以2000元从闲鱼购入的。从NAS本体而言性价比是极低的，&lt;del&gt;但如果是群晖的话就释然了&lt;/del&gt;。群晖不仅贵，而且硬件更新速度极慢，正所谓买软件送硬件。举例而言，最新款的DS224+和四年前上一代的DS720+有相同的配置，但少了两个M.2接口且第三方渠道也要2350元。这么一对比这个价格还算可以接受吧。&lt;/p&gt;
+&lt;p&gt;其次，我也很喜欢DS720+的外观。左边是DS720+，右边是DS224+，感觉盘位分明的设计比较戳我。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Untitled&#34; src=&#34;https://i.imgur.com/hM1VL25.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;若对人说群晖、双盘位、旗舰机等关键词，可能会觉得是一个人傻钱多的购买者。但这个NAS的确满足了我都需求：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;购入意愿强：早就想买个NAS了，还闲鱼还找到一个不错的，&lt;del&gt;什么图穷匕见&lt;/del&gt;。&lt;/li&gt;
+&lt;li&gt;不折腾：群晖生态极好，第三方插件足。&lt;/li&gt;
+&lt;li&gt;性能满足个人所需：硬件虽然垃圾但给个人用属于是杀鸡用牛刀了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;评价&#34;&gt;评价&lt;/h2&gt;
+&lt;p&gt;网上有很多关于”&lt;a href=&#34;https://www.zhihu.com/question/630932499&#34;&gt;普通人真的需要NAS吗&lt;/a&gt;“的讨论，在我使用一段时间后发现&lt;del&gt;确实不需要&lt;/del&gt;NAS作为一个存储系统是非常合适的。在我的考虑中主要是NAS和云盘进行对比，并且发现两者各有优势。&lt;/p&gt;
+&lt;p&gt;NAS和云盘都可以满足最基本的存储条件，及随时随地存储和查看。而NAS除了老生常谈的数据隐私性和安全性之外，它的扩展性是最重要的优势之一。目前大多NAS都支持Docker容器，也就是说可以把NAS作为服务器做一些服务，比如自动下载资源、图床、离线软件的在线服务等等。以群晖举例，底层就是Linux系统，也就是说甚至可以写一些脚本处理文件。因此NAS非常适合作为一个记忆的系统辅助自己记录，而不单单是一个存储设备使用。&lt;/p&gt;
+&lt;p&gt;当然NAS的缺点也有许多：性价比不高、保证设备正常和安全等。尤其是保证设备正常这一点，是远远不如云盘的，放云盘可不需要用户担心数据会不翼而飞。其次NAS也需要做一些手段保证设备不断电不断网，&lt;del&gt;不会被宿管断电&lt;/del&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;结尾&#34;&gt;结尾&lt;/h2&gt;
+&lt;p&gt;后续会研究一下NAS的Docker，很多服务都非常不错，且是我所需的，例如数据库、图床等。从目前来说DS720+满足了我基本的存储整合需求，但跟进一的功能还得后续的配置和探索。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>随游</title>
+      <link>//localhost:1313/2daily/%E9%9A%8F%E8%AE%B0/</link>
+      <pubDate>Tue, 13 Feb 2024 22:43:00 +0800</pubDate>
+      
+      <guid>//localhost:1313/2daily/%E9%9A%8F%E8%AE%B0/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>//localhost:1313/1tech/20240213hello/</link>
+      <pubDate>Mon, 12 Feb 2024 23:21:42 +0800</pubDate>
+      
+      <guid>//localhost:1313/1tech/20240213hello/</guid>
+      
+      <description>&lt;p&gt;Hello, this is an article for testing.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>博客链接</title>
+      <link>//localhost:1313/3pages/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/3pages/links/</guid>
+      
+      <description>&lt;p&gt;博客的内容能够传递精彩的人生、有趣的知识、广阔的世界。&lt;/p&gt;
+&lt;p&gt;可惜博客也像是一座一座孤岛，很难被发现。&lt;/p&gt;
+&lt;p&gt;因此这里会记录一些有趣的，偶然发现的博客。&lt;/p&gt;
+&lt;h2 id=&#34;技术老哥&#34;&gt;技术老哥&lt;/h2&gt;
+&lt;p&gt;苏洋: &lt;a href=&#34;https://soulteary.com/&#34;&gt;https://soulteary.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;diygod: &lt;a href=&#34;https://diygod.cc/&#34;&gt;https://diygod.cc/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;google的老哥: &lt;a href=&#34;http://idle.systems/&#34;&gt;http://idle.systems/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;pesudoyu: &lt;a href=&#34;https://www.pseudoyu.com/&#34;&gt;https://www.pseudoyu.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+&lt;p&gt;新闻RSS订阅：&lt;a href=&#34;https://feedx.net/&#34;&gt;https://feedx.net/&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>关于我</title>
+      <link>//localhost:1313/3pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/3pages/about/</guid>
+      
+      <description>&lt;p&gt;Hi，我是Take(/ta&amp;rsquo;keı/)。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/syntorch&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>好物推荐</title>
+      <link>//localhost:1313/3pages/goods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/3pages/goods/</guid>
+      
+      <description>&lt;p&gt;&lt;a href=&#34;//localhost:1313/3pages/links/&#34;&gt;博客链接&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

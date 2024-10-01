@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日常 on take&#39;s blog</title>
+    <link>//localhost:1313/2daily/</link>
+    <description>Recent content in 日常 on take&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 08 Sep 2024 21:59:42 +0800</lastBuildDate><atom:link href="//localhost:1313/2daily/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>随游</title>
+      <link>//localhost:1313/2daily/%E9%9A%8F%E8%AE%B0/</link>
+      <pubDate>Tue, 13 Feb 2024 22:43:00 +0800</pubDate>
+      
+      <guid>//localhost:1313/2daily/%E9%9A%8F%E8%AE%B0/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

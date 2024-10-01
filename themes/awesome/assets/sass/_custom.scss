@@ -1,0 +1,52 @@
+.page-content .page-content h1 {
+    border-bottom:2px solid #d0d0d0;
+}
+
+.page-content .page-content h2 {
+    text-underline-offset: 10px;
+    text-decoration: underline 1px solid #d0d0d0;
+}
+
+.header {
+    margin-top: 4em;
+}
+
+.header .header-title{
+    font-size: 2.2em;
+    font-weight: bolder;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 100px 0px 50px 0px;
+}
+
+// .post-attribute ul{
+//     float: left;
+//     list-style-type: none;
+
+// }
+.post-attribute {
+    li{
+        padding-right: 5px;
+        list-style-type: none;
+        float: left;
+    }
+
+    a {
+        color: $gray;
+        margin-right: 2px;
+    }
+
+    .post-tags:before {
+        content: "Tags: ";
+    }
+
+    padding: .1rem .1rem;
+    margin: 0px 0px 40px 0px;    
+}
+
+@import "terms";
+
+
+

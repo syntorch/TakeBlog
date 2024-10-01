@@ -1,0 +1,42 @@
+.terms {
+    margin: 2em 0 3em;
+    text-align: center;
+    // font-family: $global-serif-font-family;
+  
+    .terms-title {
+      display: inline-block;
+    //   font-size: $terms-title-size;
+    //   color: $gray;
+    //   border-bottom: $terms-title-border-bottom;
+    }
+  
+    .terms-tags {
+      margin: 10px 0;
+  
+      .terms-link {
+        display: inline-block;
+        position: relative;
+        margin-right: 10px ;
+        word-wrap: break-word;
+        transition-duration: 0.2s;
+        transition-property: transform;
+        transition-timing-function: ease-out;
+        color: $gray;
+  
+        .terms-count {
+          display: inline-block;
+          position: relative;
+          top: -8px;
+          right: 2px;
+          color: #0f0f0f;
+          font-size: small;
+        }
+  
+        &:active,
+        &:focus,
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
