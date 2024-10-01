@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2024-09-28
+  created: 2024-09-27
   updated: 2024-09-28
 tags: 
   [blog, knowlege]
@@ -8,7 +8,7 @@ categories:
   - blog
 ---
 
-# 个人博客搭建
+# 个人博客搭建：静态网页Mkdocs
 
 博客能很好的记录个人做过的事情，作为归档的一类把项目的精华总结在此。在不断的搜索中我发现了`mkdocs`，非常符合我的喜好。之前也是一直在研究静态网站，借此机会就尝试迁移并后续在这上面记录。
 
@@ -60,7 +60,7 @@ mkdocs serve
 
 此时可以打开网页在`localhost:8000`看到本地部署的网页
 
-![alt text](image.png)
+![](https://s2.loli.net/2024/10/01/vuKpZgWPQRIzGxk.png)
 
 加载mkdocs-material主题使其美观和可扩展，在mkdocs工程配置文件`mkdocs.yml` 中写入
 
@@ -79,6 +79,16 @@ theme:
 
 可以通过官网[这一章](https://squidfunk.github.io/mkdocs-material/publishing-your-site/?h=action#with-github-actions-material-for-mkdocs)配置Github Action。
 
+点击Github中的Github Action查看是否Deploy完成。
+
+点击`<repo>` -> `Setting` -> `Pages` -> `Build and deployment` -> `Branch`
+
+选择branch为`gh-pages`，完成后如下
+![](https://s2.loli.net/2024/10/01/5QYp2yHxwDIT4Kv.png)
+
+之后访问网站：`<username>.github.io/<repo>` 即可看到部署的网站。
+
+![](https://s2.loli.net/2024/10/01/VnjEiCADzZXw29y.png)
 
 ## 引用
 
