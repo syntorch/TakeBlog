@@ -16,7 +16,7 @@ nav:
     - blog/index.md
   - Goods: Goods.md
   - Links: Links.md
-  - Tags: Tags.md
+  # - Tags: Tags.md
   - About: About.md
 
 
@@ -45,6 +45,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
+  custom_dir: overrides
   features:
     # 使用 Tab 来进行分类
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
