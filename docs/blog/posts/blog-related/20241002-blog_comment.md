@@ -42,7 +42,7 @@ Github Page提供了一个网址使用户访问，例如我这个的默认网址
 
 查找`Settings`->`General`->`Pages`->`Custom domain` 中，输入自己的域名即可讲域名和该仓库关联。
 
-需要在增加在仓库中增加`CNAME`，其中内容为自己的域名，无需写`www`子域。
+需要仓库的docs文件夹中增加`CNAME`，其中内容为自己的域名，无需写`www`子域。详细可以查看mkdocs官方[关于Custom Domain设置的介绍](https://www.mkdocs.org/user-guide/deploying-your-docs/#custom-domains)。
 
 DNS的转发原理可以查看[这篇文章](https://zhuanlan.zhihu.com/p/706650479)。
 
