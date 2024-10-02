@@ -6,7 +6,6 @@ tags:
   [blog, knowlege]
 categories:
   - blog
-draft: true
 ---
 
 # 个人博客搭建：博客网址、评论与反馈
@@ -28,10 +27,13 @@ Github Page提供了一个网址使用户访问，例如我这个的默认网址
 
 需要讲DNS服务商设置转流的地点。常见的服务商是`cloudflare`，我的域名是在`dynadot`上购买的，域名也一直拖在那边所以就用这个演示。
 
-![](https://s2.loli.net/2024/10/02/lX7wdx1iuBAp2O8.png)
+这四个IPV4的地址分别指向了Github的服务器，在用户访问时，我们只需要让DNS服务商把流转给Github处理即可。
 
-从文档上看Github提供了几种方式：`A`、`AAA`和 `ANAME`。我这边以`A`类型举例，这四个IPV4的地址分别指向了Github的服务器，在用户访问时，我们只需要让DNS服务商把流转给Github处理即可。
+从文档上看Github提供了几种方式：`A`、`AAA`和 `ANAME`。我这边以`A`类型举例。实际操作中，在DNS服务器对root domain增加`A`字段Github对IPV4地址，在sub domain处添加`www`子域，指向自己的github page网址。
 
+![](https://s2.loli.net/2024/10/02/sorPwWjdIpuDqFz.png)
+
+当然后续也可能思考把域名从Dynadot转到Cloudflare中，方便管理所有域名。
 
 
 ### Github设置
@@ -46,6 +48,7 @@ DNS的转发原理可以查看[这篇文章](https://zhuanlan.zhihu.com/p/706650
 
 当设置完以上内容，稍等几分钟就可以通过自己的域名访问网站了。
 
+### 域名
 
 
 ## 网页评论
@@ -68,8 +71,26 @@ Cusdis在Mkdocs上的设置非常简单，可以参考[官方指南](https://cus
 
 ## 网站分析
 
-https://developers.google.com/analytics/learn/beginners#step-1:-set-up-google-analytics
+谷歌分析[GA4](https://analytics.google.com)是一个不错的选择，也是Mkdocs官方支持网站分析工具。
 
+网站分析其实相对而言也是后话了，但还是没有必要但是得有。
+
+网站分析类的工具之前没有特别了解，但粗略看下来可以分析有几个人看了网站，这些人来自哪里等等。后续也值得慢慢研究。目前网站我们就先部署GA4，暂时拥有这个功能。
+
+可以参考谷歌[GA4官网的指南](https://developers.google.com/analytics/learn/beginners#step-1:-set-up-google-analytics)，此外Mkdcos-material官网也指明了[如何在网站上接入GA4](https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/).
+
+在`mkdocs.yml`中增加代码，其中`property`是用户GA4的接口码。
+
+```yaml
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+```
+
+
+## 其他引用
+1. [https://blog.51cto.com/u_16099335/10871795](https://blog.51cto.com/u_16099335/10871795)
 
 
 
