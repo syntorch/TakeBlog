@@ -1,3 +1,8 @@
+---
+hide:
+  - feedback
+---
+
 # Welcome to Take's Blog
 
 一个无聊的人的随记：

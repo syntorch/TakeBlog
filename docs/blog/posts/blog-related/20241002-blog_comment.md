@@ -40,6 +40,10 @@ Github Page提供了一个网址使用户访问，例如我这个的默认网址
 
 查找`Settings`->`General`->`Pages`->`Custom domain` 中，输入自己的域名即可讲域名和该仓库关联。
 
+需要在增加在仓库中增加`CNAME`，其中内容为自己的域名，无需写`www`子域。
+
+DNS的转发原理可以查看[这篇文章](https://zhuanlan.zhihu.com/p/706650479)。
+
 当设置完以上内容，稍等几分钟就可以通过自己的域名访问网站了。
 
 
@@ -62,6 +66,9 @@ Cusdis在Mkdocs上的设置非常简单，可以参考[官方指南](https://cus
 
 记得需要刷新或重启本地服务，才能够出现新增的评论功能。
 
+## 网站分析
+
+https://developers.google.com/analytics/learn/beginners#step-1:-set-up-google-analytics
 
 
 
