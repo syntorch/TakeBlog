@@ -7,9 +7,9 @@ hide:
 
 一个无聊的人的随记：
 
-[博客](./blog/index.md)
+这里有我随笔写的[博客](./blog/index.md)
 
-## 我的目标
+## 博客系列
 
-1. 构建博客
+1. [构建博客系列](./blog/category/blog)
 
