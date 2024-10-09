@@ -33,3 +33,13 @@ pesudoyu: [https://www.pseudoyu.com/](https://www.pseudoyu.com/)
 [https://yang-xijie.github.io/](https://yang-xijie.github.io/)
 
 [https://wiki-power.com/](https://wiki-power.com/)
+
+[https://wcowin.work](https://wcowin.work)
+
+
+## 技术文章
+王树森推荐系统：[https://github.com/wangshusen/RecommenderSystem](https://github.com/wangshusen/RecommenderSystem)
+
+结构之法，算法之道：[https://blog.csdn.net/v_JULY_v](https://blog.csdn.net/v_JULY_v)
+
+美团技术团队：[https://tech.meituan.com/](https://tech.meituan.com/)
