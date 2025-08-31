@@ -16,7 +16,8 @@ nav:
     - blog/index.md
   - Goods: Goods.md
   - Links: Links.md
-  # - Tags: Tags.md
+  - Tags: Tags.md
+  - Ramblings: Ramblings.md
   - About: About.md
 
 
